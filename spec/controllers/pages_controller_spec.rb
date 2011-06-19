@@ -5,7 +5,7 @@ describe PagesController do
 
   describe "GET 'home'" do
     it "should be successful" do
-      get 'home' 
+      get 'home'
       response.should be_success
     end
 
